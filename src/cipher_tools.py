@@ -56,6 +56,6 @@ def get_container_pid(service_name: str):
         print('Erro: ', e)
     return pid
 
-print(get_path_libssl())
-print(get_ciphers())
-print(get_container_pid('bash'))
+# print(get_path_libssl())
+# print(get_ciphers())
+# print(get_container_pid('bash'))
